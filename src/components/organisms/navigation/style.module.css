@@ -1,0 +1,29 @@
+@import url('./../../../assets/_styling.css');
+
+.navigation {
+	background: var(--primary);
+	height: 100%;
+	padding: 0.4rem;
+}
+
+.navigation .navLink {
+	text-decoration: none;
+	padding: 0rem;
+	display: flex;
+}
+
+.navLink:hover {
+	background: var(--purple);
+}
+
+.active {
+	background: var(--secondary);
+}
+
+@media only screen and (max-width: 567px) {
+	.navigation {
+	background: var(--primary);
+		height: 100%;
+		padding: 0.4rem 0rem;
+	}
+}

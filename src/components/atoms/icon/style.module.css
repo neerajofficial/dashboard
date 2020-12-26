@@ -1,0 +1,38 @@
+@import url('./../../../assets/_styling.css');
+
+.icon {
+	display: flex;
+	align-items: center;
+	padding: 0.4rem;
+}
+
+.large img {
+	height: 1.6rem;
+	width: 1.6rem;
+}
+
+.medium img {
+	height: 1rem;
+	width: 1rem;
+}
+
+.small img {
+	height: 1rem;
+	width: 1rem;
+}
+.imageSmall img {
+	height: 3rem;
+}
+.imageSmall2 img {
+	height: 2rem;
+}
+.imageBox img {
+	max-width: 100%;
+  	min-width: 100%;
+  	max-height: 250px;
+}
+.imageSmallBox img {
+	max-width: 100%;
+  	min-width: 100%;
+  	max-height: 200px;
+}

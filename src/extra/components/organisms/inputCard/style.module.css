@@ -1,0 +1,30 @@
+@import url('./../../../assets/_styling.css');
+
+.inputCard {
+	background: var(--white);
+	padding: 1rem 1.5rem;
+	display: grid;
+	grid-template-columns: 4fr 1fr 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-areas: 
+						"textArea textArea textArea"
+						"cancel file send";
+	border-radius: 1rem;
+}
+
+.textArea {
+	grid-area: textArea;
+	height: 50px;
+}
+
+.cancel {
+	grid-area: cancel;
+}
+
+.file {
+	grid-area: file;
+}
+
+.send {
+	grid-area: send;
+}

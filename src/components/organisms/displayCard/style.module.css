@@ -1,0 +1,39 @@
+@import url('./../../../assets/_styling.css');
+
+.displayCard {
+	background: var(--white);
+	border-radius: 1rem;
+}
+.display {
+	display: grid;
+	grid-template-columns: 1fr 8fr;
+	padding: 1rem 2rem;
+}
+
+.content {
+	display: grid;
+	grid-row-gap: 1rem;
+}
+
+.content .top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.comment {
+	background: var(--light-white);
+	border-radius: 0 0 1rem 1rem;
+	padding: 0.2rem 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.comment .image {
+	padding-left: 1rem;
+}
+
+.comment .body {
+	margin-right: auto;
+	padding-left: 2rem;
+}

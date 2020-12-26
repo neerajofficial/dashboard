@@ -1,0 +1,7 @@
+@import url('./../../../assets/_styling.css');
+
+.app {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	height: 100vh; 
+}

@@ -1,0 +1,26 @@
+@import url('./../../../assets/_styling.css');
+
+.iconText {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	cursor: pointer;
+	padding: 0.4rem 0.6rem;
+}
+
+.iconText div {
+	flex: 3;
+}
+
+.iconText .icon {
+	flex: 1;
+}
+
+.secondary {
+	background: transparent;
+}
+
+.active {
+	background: var(--secondary);
+}

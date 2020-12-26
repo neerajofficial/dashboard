@@ -1,0 +1,7 @@
+@import url('./../../../assets/_styling.css');
+
+.navigation {
+	background: var(--primary);
+	height: 100%;
+	padding: 0.4rem;
+}

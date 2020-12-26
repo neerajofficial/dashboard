@@ -1,0 +1,24 @@
+@import url('./../../../assets/_styling.css');
+
+.noteCard {
+	padding: 1rem 1.5rem;
+	box-sizing: border-box;
+	position: relative;
+	background: var(--white);
+	height: 100%;
+	border-radius: 1rem;
+}
+
+.body {
+	padding: 0.5em 0;	
+}
+
+.icon {
+	background: var(--primary);
+	border-radius: 2rem;
+	bottom: 2rem;
+	cursor: pointer;
+	padding: 0.4rem;
+	position: absolute;
+	right: 3rem;
+}

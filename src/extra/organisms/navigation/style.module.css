@@ -1,0 +1,12 @@
+@import url('./../../../assets/_styling.css');
+
+.navWrap {
+	background: var(--primary);
+	color: var(--white);
+	font-family: var(--regular);
+	font-size: var(--heading);
+	font-weight: bold;
+	font-style: normal;
+	padding: 4px 4px;
+	height: 100vh;
+}

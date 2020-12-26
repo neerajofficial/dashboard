@@ -1,0 +1,8 @@
+@import url('./../../../assets/_styling.css');
+
+.graphCard {
+	background: var(--white);
+	border-radius: 1rem;
+	display: flex;
+	align-items: center;
+}

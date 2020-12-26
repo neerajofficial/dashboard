@@ -1,0 +1,14 @@
+@import url('./../../../assets/_styling.css');
+
+.yellow {
+	background: var(--yellow);
+}
+
+.green {
+	background: var(--green);
+}
+
+.primary {
+	border-radius: 1rem;
+	padding: 1rem;
+}

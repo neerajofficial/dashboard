@@ -1,0 +1,30 @@
+@import url('./../../../assets/_styling.css');
+
+.posts {
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	background: var(--grey);
+	height: 100%;
+	padding: 1rem;
+}
+
+.posts .main {
+	display: block;
+}
+
+.inputCard {
+	width: 100%;
+}
+
+.displayCard {
+	width: 100%;
+	padding: 2rem 0;
+	display: grid;
+	grid-row-gap: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+	.posts {
+		grid-template-columns: 1fr 0fr;
+	}
+}

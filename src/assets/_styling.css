@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'regular';
+	src: 
+		local('regular'),
+		url('./fonts/regular.ttf')
+}
+
+:root {
+	/* ----------- Color ----------- */
+	--primary: #FF6C40;
+	--secondary: #FFC480;
+	--brown: #593636;
+	--grey: #E5E5E5;
+	--dark: #000000;
+	--white: #ffffff;
+	--yellow: #FFE700;
+	--green: #1FFD77;
+	--purple: #BA99FF;
+	--light-white: #FAFAFA;
+	--light-grey: #B0B0B0;
+	--light-blue: #D9FFE1;
+	--light-pink: #FFD9D9;
+	--dark-blue: #0F26F2;
+	--grey-shadow: #E5E5E533;
+	/* ---------- Fonts ---------- */
+	--regular: 'regular';
+
+	/* ---------- Sizes ---------- */
+	--font-size: 16px;
+};

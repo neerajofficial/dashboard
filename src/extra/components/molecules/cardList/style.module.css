@@ -1,0 +1,6 @@
+@import url('./../../../assets/_styling.css');
+
+.cardList {
+	display: flex;
+	padding: 0.2rem 0.4rem;
+}

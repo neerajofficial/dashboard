@@ -1,0 +1,18 @@
+@import url('./../../../assets/_styling.css');
+
+.monthCard {
+	background: var(--white);
+	border-radius: 1rem;
+	display: block;
+	height: 100%;
+	padding: 0.5rem 0.2rem;
+	text-align: center;
+}
+.head {
+	border-bottom: 1px solid var(--grey);
+	padding-bottom: 0.2rem;
+}
+.body {
+	display: grid;
+	height: 100%;
+}

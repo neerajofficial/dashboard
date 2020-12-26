@@ -1,0 +1,58 @@
+@import url('./../../../assets/_styling.css');
+
+.inputCard {
+	background: var(--white);
+	padding: 1rem 1.5rem;
+	border-radius: 1rem;
+	font-family: var(--regular);
+}
+
+.textArea {
+	grid-area: textArea;
+	height: 80px;
+}
+
+.actions, 
+.approved {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cancel {
+	color: var(--primary);
+	padding-left: 2rem;
+}
+
+.cancel .text {
+	cursor: pointer;
+}
+
+.approved {
+	padding-right: 2rem;
+}
+
+.file {
+	background: var(--secondary);
+	border-radius: 2rem;
+	margin-right: 0.6rem;
+}
+
+.send {
+	display: flex;
+	align-items: center;
+	color: var(--white);
+	border-radius: 0.4rem;
+	background: var(--primary);
+	padding: 0rem;
+	cursor: pointer;
+}
+.send .text {
+	padding: 0.2rem 1rem;
+}
+.send .icon {
+	padding: 0.1rem;
+}
+.send .icon {
+	border-radius: 0 0.4rem 0.4rem 0;
+	background: var(--secondary);
+}

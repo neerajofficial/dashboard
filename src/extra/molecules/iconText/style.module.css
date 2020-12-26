@@ -1,0 +1,17 @@
+@import url('./../../../assets/_styling.css');
+
+/* -- theme -- */
+.iconTextWrap {
+	display: flex;
+	grid-gap: 10px;
+	padding: 5px 20px;
+	align-items: center;
+	align-content: center;
+	vertical-align: middle;
+}
+
+.active {
+	background: var(--secondary);
+	text-align: left;
+}
+

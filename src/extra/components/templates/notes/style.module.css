@@ -1,0 +1,13 @@
+@import url('./../../../assets/_styling.css');
+
+.notes {
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	background: var(--grey);
+	height: 100%;
+	padding: 1rem;
+}
+
+.notes .main {
+	display: block;
+}

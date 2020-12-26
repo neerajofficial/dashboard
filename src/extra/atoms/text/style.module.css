@@ -1,0 +1,23 @@
+@import url('./../../../assets/_styling.css');
+
+/* -- sizes */
+.heading {
+	font-family: var(--regular);
+	font-size: var(--large);
+	font-style: normal;
+	font-weight: bold;
+	line-height: 34px;
+}
+
+.medium {
+	font-family: var(--regular);
+	font-size: var(--medium);
+	font-style: normal;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+/* theme */
+.primary--light {
+	color: var(--white);
+}

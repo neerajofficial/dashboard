@@ -1,0 +1,16 @@
+@import url('./../../../assets/_styling.css');
+
+.app {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	height: 100vh; 
+}
+
+@media only screen and (max-width: 567px) {
+	:root {
+		--font-size: 12px;
+	}
+	.app {
+		grid-template-columns: 1fr;
+	}
+}
