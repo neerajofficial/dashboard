@@ -13,6 +13,7 @@
 .grids {
 	background: var(--grey);
 	display: grid;
+	height: 100%;
 	grid-template-columns: repeat(6, 2fr);
 	padding:1rem;
 	grid-template-rows: 1fr 3fr 3fr 3fr 3fr;
