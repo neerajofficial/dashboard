@@ -72,6 +72,7 @@ const Home = props => {
 
 	return (
 		<div className={styles.home}>
+			<div className={styles.grids}>
 				<div className={styles.search}>
 					<SearchBox
 						placeholder="Search" 
@@ -123,7 +124,7 @@ const Home = props => {
 				<div className={styles.notifications}>
 					<Notifications />
 				</div>
-			
+			</div>
 		</div>
 	);
 }
